@@ -30,6 +30,6 @@ The snake's body grows incrementally as it eats more bugs and the movement of th
 The game features a cartoon-style graphics designed using Figma. 
 
 
-This project was created as part of a two-week challenge centered around game creation. I focused on game development and back-end and the project allowed me to explore Unity more, while refreshing their knowledge of C# programming.
+This project was created as part of a two-week challenge centered around game creation. I focused on game development and back-end and the project allowed me to explore Unity more, while refreshing my knowledge of C# programming.
 
 
