@@ -40,7 +40,7 @@ public class GameHandler : MonoBehaviour
     // Increase the score of 1 unit
     public static void IncreaseScore()
     {
-        score += 1;
+        score += 100;
         Debug.Log("DEBUG: Score increased at " + score);
     }
 }
