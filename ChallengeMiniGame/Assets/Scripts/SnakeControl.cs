@@ -25,9 +25,8 @@ public class SnakeControl : MonoBehaviour
     private Direction snakeDirection;
     private Vector2Int snakePosition;
     // Time interval between frames/state update
-    private float moveTimer;
-    private float moveTimerMax;
-    public float maxSpeed = 4.0f;
+    private float moveTimer, moveTimerMax;
+    public static float maxSpeed;
     // Calling LevelGrid script for apple(s) spawning
     private LevelGrid levelGrid;
     // Grid boundaries [to be passed as a parameter to spawn function]
@@ -50,6 +49,7 @@ public class SnakeControl : MonoBehaviour
         state = SnakeState.Alive;
 
         snakePosition = new Vector2Int(0, 0);
+        maxSpeed = 7f;
         moveTimerMax = 1f / maxSpeed;
         moveTimer = moveTimerMax;
         snakeDirection = Direction.Right;
@@ -88,6 +88,31 @@ public class SnakeControl : MonoBehaviour
                 // if the snake is dead, you can't
                 break;
         }
+
+        if (GameHandler.GetScore() == 500)
+        {
+            maxSpeed = 9f;
+            
+            Debug.Log("DEBUG: Speed increased (1)");
+        } else if (GameHandler.GetScore() == 1000)
+        {
+            maxSpeed = 11f;
+            Debug.Log("DEBUG: Speed increased (2)");
+        } else if (GameHandler.GetScore() == 1500)
+        {
+            maxSpeed = 13f;
+            Debug.Log("DEBUG: Speed increased (3)");
+        }else if (GameHandler.GetScore() == 2000)
+        {
+            maxSpeed = 15f;
+            Debug.Log("DEBUG: Speed increased (4)");
+        }
+        moveTimerMax = 1f / maxSpeed;
+    }
+
+    public static float GetSpeed()
+    {
+        return maxSpeed;
     }
 
     // Getting user input (keyboard)
