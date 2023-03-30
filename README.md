@@ -1,4 +1,4 @@
-# DEBUG - A Snake Minigame
+# DEBUG - Snake Minigame
 
 </br>
 
