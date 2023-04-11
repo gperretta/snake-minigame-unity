@@ -24,12 +24,12 @@ The game mechanics include collisions between objects, such as the snake and the
 When the snake exceeds the borders of the screen, it comes back from the opposite side, providing a seamless and continuous experience.
 
 
-The snake's body grows incrementally as it eats more bugs and the movement of the body aligns and rotates to follow the snake head for smooth movements. The game uses various assets and components such as sprite renderer, box collider 2D, rigid body and text mesh.
+The snake's body grows incrementally as it eats more bugs and the movement of the body aligns and rotates to follow the snake head for smooth movements. The game uses various assets and components such as _Sprite Renderer_, _Box Collider 2D_, _Rigid Body_ and _Text Mesh Pro_.
 
 
-The game features a cartoon-style graphics designed using Figma. 
+The game features a cartoon-style graphics designed using **Figma**. 
 
 
-This project was created as part of a two-week challenge centered around game creation. I focused on game development and back-end and the project allowed me to explore Unity more, while refreshing my knowledge of C# programming.
+This project was created as part of a two-week challenge centered around game creation, where I mostly focused on (back-end) game development, which allowed me to explore a bit more about **Unity**, while refreshing my knowledge of **C# programming**.
 
 
