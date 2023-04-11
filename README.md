@@ -12,7 +12,7 @@
 
 As in the classic snake-genre games, the player can control the snake to allow it to find and eat its food - a _bug_, in this version, hence the choosen game title.
 
-The player gets 100 points for every bug the snake eats, while the snake gets longer and longer. 
+The player gets 100 points for each bug the snake eats, while the snake gets longer and longer. 
 The speed of the game increases the more bugs are eaten to make the game more entertaining and harder.
 There's only one limitation: if the snake bites itself, it will die!
 
