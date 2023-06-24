@@ -5,7 +5,7 @@
 <h3>Table of contents</h3>
 <a href="https://github.com/gperretta/snake-minigame-unity/tree/main#-gameplay-">Gameplay</a></br>
 <a href="https://github.com/gperretta/snake-minigame-unity/tree/main#-game-mechanics-">Game mechanics</a></br>
-<a href="https://github.com/gperretta/snake-minigame-unity/tree/main#-technologies-and-softwares-">Software, systems and interactions</a></br>
+<a href="https://github.com/gperretta/snake-minigame-unity/tree/main#-technologies-and-softwares-">Technologies and softwares</a></br>
 <a href="https://github.com/gperretta/snake-minigame-unity/tree/main#-final-note-">Final note</a></br>
 <img width="1920" alt="menu-bg" src="https://user-images.githubusercontent.com/113616815/228385932-3e5bb1ef-00d5-4dec-af81-49692b19a0aa.png">
 </br>
